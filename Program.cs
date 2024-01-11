@@ -36,13 +36,14 @@ namespace GA_CustomList
             }
 
             // checking if addatindex 
-            myList.AddAtIndex("JohnCena", -1);
+            myList.AddAtIndex("JohnCena", 1);
             // only works if there are the amount of items present. if there are only 2 items u can not index 5 only index between 0-2
             for (int i = 0; i < myList.Count; i++)
             {
                 string v = myList.GetItem(i).ToString();
                 Console.WriteLine(v);
             }
+
 
 
         }
